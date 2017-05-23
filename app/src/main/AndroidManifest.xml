@@ -7,16 +7,18 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
         <activity android:name=".Main_Menu">
             <intent-filter>
-
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Gra"></activity>
+        <activity android:name=".Gra" />
+        <activity android:name=".wczytaj_gre" />
+        <activity android:name=".Ustawienia" />
+        <activity android:name=".Autorzy"></activity>
     </application>
 
 </manifest>

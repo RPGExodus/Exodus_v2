@@ -9,22 +9,24 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="pl.billog_studio.exodus.Main_Menu"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
 
     <Button
         android:textSize="24dp"
         android:layout_width="wrap_content"
-        android:layout_height="112dp"
+        android:layout_height="0px"
         android:text="Nowa Gra"
         android:id="@+id/button_nowa_gra"
         android:textColor="#ffffff"
         android:background="#000000"
-
+        android:layout_weight="20"
         android:layout_gravity="center_horizontal" />
 
     <Button
+        android:layout_weight="20"
         android:textSize="24dp"
-        android:layout_height="112dp"
+        android:layout_height="0px"
         android:layout_width="wrap_content"
         android:text="Wczytaj Grę"
         android:id="@+id/button_wczytaj_gre"
@@ -34,9 +36,10 @@
         android:layout_gravity="center_horizontal" />
 
     <Button
+        android:layout_weight="20"
         android:textSize="24dp"
         android:layout_width="wrap_content"
-        android:layout_height="112dp"
+        android:layout_height="0px"
         android:text="Ustawienia"
         android:id="@+id/button_ustawienia"
         android:background="#000000"
@@ -44,9 +47,10 @@
         android:layout_gravity="center_horizontal" />
 
     <Button
+        android:layout_weight="20"
         android:textSize="24dp"
         android:layout_width="wrap_content"
-        android:layout_height="112dp"
+        android:layout_height="0px"
         android:text="Autorzy"
         android:id="@+id/button_credits"
         android:textColor="#ffffff"
